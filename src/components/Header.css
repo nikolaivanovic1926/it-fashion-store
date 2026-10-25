@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 10px 40px;
+  background: #fbf0e6;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+  line-height: 1;
+}
+
+.header-logo-letters {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+.header-logo-text {
+  font-size: 7px;
+  letter-spacing: 1px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 36px;
+  flex: 1;
+  margin-left: 30px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 15px;
+}
+
+.header-nav a.active {
+  font-weight: bold;
+}
+
+.header-nav .header-sale {
+  color: #e5192b;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-search {
+  width: 260px;
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  background: transparent;
+}
+
+.header-icon {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px 16px;
+  }
+
+  .header-nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .header-search {
+    width: 140px;
+  }
+}
+.header-cart-count {
+  margin-left: 4px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  font-size: 12px;
+  vertical-align: top;
+}
