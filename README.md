@@ -5,7 +5,7 @@ E-commerce web application for online clothing shopping, built with React and Vi
 ## Features
 
 - Home page with promotions and categories
-- Shop page with products loaded from an API and category filtering
+- Shop page with products loaded from an API
 - Product details page
 - Shopping cart and checkout
 - Login and registration pages
