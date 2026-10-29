@@ -1,5 +1,5 @@
 const BASE_URL = "https://api.advanziaeducation.com";
-const API_KEY = "d7534cbd9ee8a1d277508f05318830010270e1c3699cacf82f8ec53f79b486a2";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const headers = {
   "Content-Type": "application/json",
